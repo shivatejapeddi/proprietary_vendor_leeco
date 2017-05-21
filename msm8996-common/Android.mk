@@ -168,7 +168,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := dpmserviceapp
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -204,7 +204,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -216,7 +216,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := imssettings
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/vendor/app/imssettings/imssettings.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
