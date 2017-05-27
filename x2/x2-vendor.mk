@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/leeco/x2/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/x2/proprietary/bin/nvm_service:system/bin/nvm_service \
     vendor/leeco/x2/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
