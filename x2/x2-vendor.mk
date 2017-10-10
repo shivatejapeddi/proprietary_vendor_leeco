@@ -173,8 +173,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libentryexstd.so:system/lib/libentryexstd.so \
     vendor/leeco/x2/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/leeco/x2/proprietary/lib/libjpush219.so:system/lib/libjpush219.so \
-    vendor/leeco/x2/proprietary/lib/liblog.so:system/lib/liblog.so \
-    vendor/leeco/x2/proprietary/lib/libminui.so:system/lib/libminui.so \
     vendor/leeco/x2/proprietary/lib/libmksdk_platform_jni.so:system/lib/libmksdk_platform_jni.so \
     vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
