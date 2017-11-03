@@ -16,6 +16,16 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
+    vendor/leeco/x2/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/leeco/x2/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+    vendor/leeco/x2/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
+    vendor/leeco/x2/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so \
+    vendor/leeco/x2/proprietary/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so \
+    vendor/leeco/x2/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+    vendor/leeco/x2/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/x2/proprietary/bin/nvm_service:system/bin/nvm_service \
     vendor/leeco/x2/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
