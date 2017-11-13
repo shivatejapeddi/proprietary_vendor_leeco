@@ -472,7 +472,9 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    HotwordEnrollmentOKGoogleWCD9340
+
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
