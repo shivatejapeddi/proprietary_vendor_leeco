@@ -16,6 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/leeco/msm8996-common/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/leeco/msm8996-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/leeco/msm8996-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/leeco/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/leeco/msm8996-common/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/leeco/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
