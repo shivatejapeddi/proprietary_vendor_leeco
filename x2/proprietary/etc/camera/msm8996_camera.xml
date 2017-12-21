@@ -83,15 +83,92 @@ LensInfo : Information of the lens present in the module.
 
 -->
 
-<CameraConfigurationRoot>
-  <CameraModuleConfig>
+ <CameraConfigurationRoot>
+ <CameraModuleConfig>
+   <CameraId>0</CameraId>
+   <SensorName>imx230_sunny</SensorName>
+   <ActuatorName>bu63165</ActuatorName>
+   <EepromName>sony_imx230_plus</EepromName>
+   <OisName>bu63165</OisName>
+   <FlashName>i2c</FlashName>
+   <ChromatixName>imx230_sunny_chromatix</ChromatixName>
+   <ModesSupported>1</ModesSupported>
+   <Position>BACK</Position>
+   <MountAngle>90</MountAngle>
+   <CSIInfo>
+     <CSIDCore>0</CSIDCore>
+     <LaneMask>0x1F</LaneMask>
+     <LaneAssign>0x4320</LaneAssign>
+     <ComboMode>0</ComboMode>
+   </CSIInfo>
+   <LensInfo>
+     <FocalLength>4.52</FocalLength>
+     <FNumber>2.0</FNumber>
+     <TotalFocusDistance>1.97</TotalFocusDistance>
+     <HorizontalViewAngle>66.2</HorizontalViewAngle>
+     <VerticalViewAngle>52.3</VerticalViewAngle>
+     <MinFocusDistance>0.1</MinFocusDistance>
+   </LensInfo>
+ </CameraModuleConfig>
+ <CameraModuleConfig>
+   <CameraId>0</CameraId>
+   <SensorName>imx230</SensorName>
+   <ActuatorName>lc898122</ActuatorName>
+   <EepromName>sony_imx230</EepromName>
+   <OisName>lc898122</OisName>
+   <FlashName>i2c</FlashName>
+   <ChromatixName>imx230_chromatix</ChromatixName>
+   <ModesSupported>1</ModesSupported>
+   <Position>BACK</Position>
+   <MountAngle>90</MountAngle>
+   <CSIInfo>
+     <CSIDCore>0</CSIDCore>
+     <LaneMask>0x1F</LaneMask>
+     <LaneAssign>0x4320</LaneAssign>
+     <ComboMode>0</ComboMode>
+   </CSIInfo>
+   <LensInfo>
+     <FocalLength>4.67</FocalLength>
+     <FNumber>2.0</FNumber>
+     <TotalFocusDistance>1.97</TotalFocusDistance>
+     <HorizontalViewAngle>64.8</HorizontalViewAngle>
+     <VerticalViewAngle>51.2</VerticalViewAngle>
+     <MinFocusDistance>0.1</MinFocusDistance>
+   </LensInfo>
+ </CameraModuleConfig>
+ <CameraModuleConfig>
+   <CameraId>0</CameraId>
+   <SensorName>imx230_lg</SensorName>
+   <ActuatorName>bu63165</ActuatorName>
+   <EepromName>sony_imx230_plus</EepromName>
+   <OisName>bu63165</OisName>
+   <FlashName>i2c</FlashName>
+   <ChromatixName>imx230_lg_chromatix</ChromatixName>
+   <ModesSupported>1</ModesSupported>
+   <Position>BACK</Position>
+   <MountAngle>90</MountAngle>
+   <CSIInfo>
+     <CSIDCore>0</CSIDCore>
+     <LaneMask>0x1F</LaneMask>
+     <LaneAssign>0x4320</LaneAssign>
+     <ComboMode>0</ComboMode>
+   </CSIInfo>
+   <LensInfo>
+     <FocalLength>4.52</FocalLength>
+     <FNumber>2.0</FNumber>
+     <TotalFocusDistance>1.97</TotalFocusDistance>
+     <HorizontalViewAngle>66.2</HorizontalViewAngle>
+     <VerticalViewAngle>52.3</VerticalViewAngle>
+     <MinFocusDistance>0.1</MinFocusDistance>
+   </LensInfo>
+ </CameraModuleConfig>
+ <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>imx230_sunny</SensorName>
-    <ActuatorName>bu63165</ActuatorName>
-    <EepromName>sony_imx230_plus</EepromName>
-    <OisName>bu63165</OisName>
+    <SensorName>ov13870_rear</SensorName>
+    <ActuatorName>sa3103c</ActuatorName>
+    <EepromName>ov13870_letv</EepromName>
     <FlashName>i2c</FlashName>
-    <ChromatixName>imx230_sunny_chromatix</ChromatixName>
+    <ChromatixName>ov13870_rear_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -102,97 +179,20 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.52</FocalLength>
+      <FocalLength>4.26</FocalLength>
       <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>66.2</HorizontalViewAngle>
-      <VerticalViewAngle>52.3</VerticalViewAngle>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>67.5</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>imx230</SensorName>
-    <ActuatorName>lc898122</ActuatorName>
-    <EepromName>sony_imx230</EepromName>
-    <OisName>lc898122</OisName>
-    <FlashName>i2c</FlashName>
-    <ChromatixName>imx230_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.67</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>64.8</HorizontalViewAngle>
-      <VerticalViewAngle>51.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>imx230_lg</SensorName>
-    <ActuatorName>bu63165</ActuatorName>
-    <EepromName>sony_imx230_plus</EepromName>
-    <OisName>bu63165</OisName>
-    <FlashName>i2c</FlashName>
-    <ChromatixName>imx230_lg_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.52</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>66.2</HorizontalViewAngle>
-      <VerticalViewAngle>52.3</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>imx318</SensorName>
-    <ActuatorName>ak7371</ActuatorName>
-    <EepromName>sony_imx318</EepromName>
-    <OisName>bu24218</OisName>
-    <FlashName>i2c</FlashName>
-    <ChromatixName>imx318_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>0</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.67</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.97</TotalFocusDistance>
-      <HorizontalViewAngle>64.8</HorizontalViewAngle>
-      <VerticalViewAngle>51.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>ov4688</SensorName>
-    <EepromName>ov4688</EepromName>
-    <ChromatixName>ov4688_chromatix</ChromatixName>
+ </CameraModuleConfig>
+ <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>ov13870_front</SensorName>
+    <ActuatorName>dw9767b</ActuatorName>
+    <EepromName>ov13870_front_letv</EepromName>
+    <ChromatixName>ov13870_front_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
@@ -203,12 +203,35 @@ LensInfo : Information of the lens present in the module.
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.53</FocalLength>
+      <FocalLength>4.26</FocalLength>
       <FNumber>2.0</FNumber>
-      <TotalFocusDistance>1.2</TotalFocusDistance>
-      <HorizontalViewAngle>69.6</HorizontalViewAngle>
-      <VerticalViewAngle>43.0</VerticalViewAngle>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+ </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>s5k3p3st_sunny</SensorName>
+    <EepromName>sunny_s5k3p3st</EepromName>
+    <ChromatixName>s5k3p3st_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>2</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.66</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>0.83</TotalFocusDistance>
+      <HorizontalViewAngle>65.32</HorizontalViewAngle>
+      <VerticalViewAngle>43.0</VerticalViewAngle>
+      <MinFocusDistance>0.47</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
@@ -258,25 +281,51 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>ov2281</SensorName>
-    <FlashName>i2c</FlashName> <!--qcom pmic-->
-    <ChromatixName>ov2281_chromatix</ChromatixName>
+    <CameraId>2</CameraId>
+    <SensorName>ov13371_mono</SensorName>
+    <FlashName>i2c</FlashName>
+    <ActuatorName>sa3103m</ActuatorName>
+    <EepromName>ov13371_letv</EepromName>
+    <ChromatixName>ov13371_mono_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
+    <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask> <!-- or 07 qcom 1F -->
+      <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>4.29</FocalLength>
-      <FNumber>2.2</FNumber>
+      <FocalLength>4.26</FocalLength>
+      <FNumber>2.0</FNumber>
       <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>29.76</HorizontalViewAngle>
-      <VerticalViewAngle>18.45</VerticalViewAngle>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>ov13371_fusion</SensorName>
+    <ActuatorName>sa3103m</ActuatorName>
+    <EepromName>ov13371_letv</EepromName>
+    <ChromatixName>ov13371_fusion_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.26</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>60.0</HorizontalViewAngle>
+      <VerticalViewAngle>45.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
