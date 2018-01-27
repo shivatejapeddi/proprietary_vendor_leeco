@@ -654,7 +654,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libyep_qmi_server.so:system/vendor/lib64/libyep_qmi_server.so \
     vendor/leeco/x2/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so \
-    vendor/leeco/x2/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \	
+    vendor/leeco/x2/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-appmm-qcamera-app \
     vendor/leeco/x2/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/le_x10_large.png:system/etc/camera/le_x10_large.png \
@@ -731,8 +731,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13371_fusion.so:system/lib/libmmcamera_ov13371_fusion.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13371_letv_eeprom.so:system/lib/libmmcamera_ov13371_letv_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13371_mono.so:system/lib/libmmcamera_ov13371_mono.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13870_cat24c64_eeprom.so:system/ \
-    vendor/leeco/x2/proprietary/vendor/:/lib/libmmcamera_ov13870_cat24c64_eeprom.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13870_cat24c64_eeprom.so:system/lib/libmmcamera_ov13870_cat24c64_eeprom.so \
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/lib/libmmcamera_ubifocus_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13870_front.so:system/lib/libmmcamera_ov13870_front.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13870_front_letv_eeprom.so:system/lib/libmmcamera_ov13870_front_letv_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ov13870_letv_eeprom.so:system/lib/libmmcamera_ov13870_letv_eeprom.so \
@@ -746,5 +746,5 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/lib/libmmcamera_stillmore_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_s5k3p3st_eeprom.so:system/lib/libmmcamera_sunny_s5k3p3st_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/lib/libmmcamera_sw2d_lib.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/lib/libmmcamera_trueportrait_lib.so \
-    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/lib/libmmcamera_ubifocus_lib.so
+    vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/lib/libmmcamera_trueportrait_lib.so
+    vendor/leeco/x
