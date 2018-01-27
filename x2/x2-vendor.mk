@@ -665,7 +665,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/camera/ov13870_front_chromatix.xml:system/etc/camera/ov13870_front_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/ov13870_rear_chromatix.xml:system/etc/camera/ov13870_rear_chromatix.xml \
     vendor/leeco/x2/proprietary/etc/camera/s5k3p3st_chromatix.xml:system/etc/camera/s5k3p3st_chromatix.xml \
-    vendor/leeco/x2/proprietary/lib/libarcsoft_antishaking.so:system/lib/libarcsoft_antishaking.so
+    vendor/leeco/x2/proprietary/lib/libarcsoft_antishaking.so:system/lib/libarcsoft_antishaking.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
     vendor/leeco/x2/proprietary/lib/libarcsoft_dualcam_low_light_shot.so:system/lib/libarcsoft_dualcam_low_light_shot.so \
@@ -747,4 +747,4 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sunny_s5k3p3st_eeprom.so:system/lib/libmmcamera_sunny_s5k3p3st_eeprom.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/lib/libmmcamera_sw2d_lib.so \
     vendor/leeco/x2/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/lib/libmmcamera_trueportrait_lib.so
-    vendor/leeco/x
+
