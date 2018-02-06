@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/leeco/x2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/leeco/x2/proprietary/bin/nvm_service:system/bin/nvm_service \
-    vendor/leeco/x2/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
+    vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:system/vendor/bin/qfp-daemon \
     vendor/leeco/x2/proprietary/bin/set_wifi_mac:system/bin/set_wifi_mac \
     vendor/leeco/x2/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/x2/proprietary/bin/yepdiag:system/bin/yepdiag \
