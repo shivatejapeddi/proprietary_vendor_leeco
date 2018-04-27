@@ -519,8 +519,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/perfd:$system/vendor/bin/perfd \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib/libqti-perfd-client_system.so:system/vendor/lib/libqti-perfd-client_system.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqti-perfd-client_system.so:system/vendor/lib64/libqti-perfd-client_system.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf
-
-
