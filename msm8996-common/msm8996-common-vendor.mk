@@ -502,7 +502,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
+    vendor/leeco/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
+    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libBD_asr_model_cmn-Hans-CN_v1_camera.so:system/app/LetvCamera/lib/arm/libBD_asr_model_cmn-Hans-CN_v1_camera.so \
+    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libamui.so:system/app/LetvCamera/lib/arm/libamui.so \
+    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libarcimgutils.so:system/app/LetvCamera/lib/arm/libarcimgutils.so \
+    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libarcimgutilsbase.so:system/app/LetvCamera/lib/arm/libarcimgutilsbase.so \
+    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libarcsoft_panorama_burstcapture.so:system/app/LetvCamera/lib/arm/libarcsoft_panorama_burstcapture.so \
+    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libbdEASRAndroid.baiduspeech.so:system/app/LetvCamera/lib/arm/libbdEASRAndroid.baiduspeech.so \
+    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libs_2.so:system/app/LetvCamera/lib/arm/libs_2.so
 
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.bluetooth_audio@1.0 \
@@ -510,6 +517,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libloc_api_v02 \
     QtiTelephonyService \
+    LetvCamera \
     ims \
     CNEService \
     com.qualcomm.location \
