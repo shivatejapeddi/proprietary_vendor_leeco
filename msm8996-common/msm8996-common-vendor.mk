@@ -503,13 +503,40 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/leeco/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
-    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libBD_asr_model_cmn-Hans-CN_v1_camera.so:system/app/LetvCamera/lib/arm/libBD_asr_model_cmn-Hans-CN_v1_camera.so \
-    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libamui.so:system/app/LetvCamera/lib/arm/libamui.so \
-    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libarcimgutils.so:system/app/LetvCamera/lib/arm/libarcimgutils.so \
-    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libarcimgutilsbase.so:system/app/LetvCamera/lib/arm/libarcimgutilsbase.so \
-    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libarcsoft_panorama_burstcapture.so:system/app/LetvCamera/lib/arm/libarcsoft_panorama_burstcapture.so \
-    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libbdEASRAndroid.baiduspeech.so:system/app/LetvCamera/lib/arm/libbdEASRAndroid.baiduspeech.so \
-    vendor/leeco/msm8996-common/proprietary/app/LetvCamera/lib/arm/libs_2.so:system/app/LetvCamera/lib/arm/libs_2.so
+    vendor/leeco/msm8996-common/proprietary/lib/bd_etts_speech_female.dat.so:system/lib/bd_etts_speech_female.dat.so \
+    vendor/leeco/msm8996-common/proprietary/lib/bd_etts_text.dat.so:system/lib/bd_etts_text.dat.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libArcFilter.so:system/lib/libArcFilter.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libBDSpeechDecoder_Voice.so:system/lib/libBDSpeechDecoder_Voice.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libBDVoiceRecognitionClient_Voice.so:system/lib/libBDVoiceRecognitionClient_Voice.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so:system/lib/libBD_asr_model_cmn-Hans-CN_v1_camera.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libamui.so:system/lib/libamui.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_antishaking.so:system/lib/libarcsoft_antishaking.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_dualcam_low_light_shot.so:system/lib/libarcsoft_dualcam_low_light_shot.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_dualcam_refocus.so:system/lib/libarcsoft_dualcam_refocus.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_dualcamnightshot.so:system/lib/libarcsoft_dualcamnightshot.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_face_detection.so:system/lib/libarcsoft_face_detection.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_face_tracking.so:system/lib/libarcsoft_face_tracking.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_hdr_detection.so:system/lib/libarcsoft_hdr_detection.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_low_light_shot.so:system/lib/libarcsoft_low_light_shot.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_picselfie_algorithm.so:system/lib/libarcsoft_picselfie_algorithm.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libbdEASRAndroid.baiduspeech.so:system/lib/libbdEASRAndroid.baiduspeech.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libbdEASRAndroid_Voice.so:system/lib/libbdEASRAndroid_Voice.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libbd_easr_s1_merge_normal_20151216.dat.so:system/lib/libbd_easr_s1_merge_normal_20151216.dat.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libbd_etts_Voice.so:system/lib/libbd_etts_Voice.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libbdtts.so:system/lib/libbdtts.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libgameplay.so:system/lib/libgameplay.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libgameplay_jni.so:system/lib/libgameplay_jni.so \
+    vendor/leeco/msm8996-common/proprietary/lib/libs_2.so:system/lib/libs_2.so 
+        
+
 
 PRODUCT_PACKAGES += \
     com.qualcomm.qti.bluetooth_audio@1.0 \
