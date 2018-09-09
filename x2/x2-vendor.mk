@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
-    vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
+    vendor/leecox2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
@@ -93,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libmputility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmputility.so \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzeusisCameraAlgoSceneDetection.so \
-    vendor/leeco/x2/proprietary/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:$(TARGET_COPY_OUT_VENDOR)/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
