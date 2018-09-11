@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_apps_mtp.cfg \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp.cfg \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_algo_transparent_data.bin \
-    vendor/leecox2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
+    vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_debug.cfg \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_rx_transparent_data.bin \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_proximity_mtp_tx_transparent_data.bin \
     vendor/leeco/x2/proprietary/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/usf/proximity/cfg_mtp/usf_ranging_apps_mtp.cfg \
