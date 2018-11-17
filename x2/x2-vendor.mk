@@ -114,14 +114,14 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/bin/mdtpd:$(TARGET_COPY_OUT_VENDOR)/bin/mdtpd \
     vendor/leeco/x2/proprietary/vendor/bin/mm-pp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-daemon \
     vendor/leeco/x2/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/workspaceFile.qwsp \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_General_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_General_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/letv/MTP_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/MTP/letv/workspaceFile.qwsp:system/etc/acdbdata/MTP/letv/workspaceFile.qwsp \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_le_x2_mdss_dsi_truly_qhd_dualdsi_cmd_pvt.xml \
     vendor/leeco/x2/proprietary/vendor/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mdss_dsi_sharp_qhd_dualdsi_cmd.xml \
@@ -396,7 +396,28 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libual.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libual.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libualutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libualutil.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libusndroute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libusndroute.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so
+    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qfp.wakeup.so \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/leeco/x2/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 PRODUCT_PACKAGES += \
     QFingerprintService
