@@ -22,7 +22,7 @@ ifneq ($(filter zl1 x2,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libantradio
 LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/lib64/libantradio.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -32,8 +32,9 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libgpustats
 LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/vendor/lib/libgpustats.so
-LOCAL_MULTILIB := 32
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libgpustats.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libgpustats.so
+LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -43,8 +44,9 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsdm-disp-vndapis
 LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/vendor/lib/libsdm-disp-vndapis.so
-LOCAL_MULTILIB := 32
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-vndapis.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdm-disp-vndapis.so
+LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -54,8 +56,9 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libthermalclient
 LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/vendor/lib/libthermalclient.so
-LOCAL_MULTILIB := 32
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libthermalclient.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libthermalclient.so
+LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
