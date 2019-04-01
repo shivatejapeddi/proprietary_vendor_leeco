@@ -1030,7 +1030,28 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/leeco/msm8996-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/leeco/msm8996-common/proprietary/vendor/bin/iop:$(TARGET_COPY_OUT_VENDOR)/bin/iop \
+    vendor/leeco/msm8996-common/proprietary/vendor/bin/perfd:$(TARGET_COPY_OUT_VENDOR)/bin/perfd \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile0.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile1.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile10.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile11.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile12.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile12.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile2.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile3.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile4.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile5.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile5.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile6.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile6.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile7.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile7.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile8.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile8.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/etc/perf-profile9.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile9.conf \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-at.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libqti-iop-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iop-client.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib/libqti-iop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iop.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqti-at.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-at.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqti-iop-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iop-client.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libqti-iop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-iop.so
 
 PRODUCT_PACKAGES += \
     libantradio \
