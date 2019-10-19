@@ -19,8 +19,3 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/beryllium/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/beryllium/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/xiaomi/beryllium/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so
-
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.fm@1.0 \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340
