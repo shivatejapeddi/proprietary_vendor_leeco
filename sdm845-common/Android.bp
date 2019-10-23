@@ -20,22 +20,22 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsdm-disp-apis.qti",
+	name: "libplatformconfig",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/product/lib/libsdm-disp-apis.qti.so"],
+			srcs: ["proprietary/vendor/lib/libplatformconfig.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary/product/lib64/libsdm-disp-apis.qti.so"],
+			srcs: ["proprietary/vendor/lib64/libplatformconfig.so"],
 		},
 	},
 	compile_multilib: "both",
 	prefer: true,
-	product_specific: true,
+	soc_specific: true,
 }
 
 android_app_import {
@@ -50,28 +50,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PerformanceMode",
-	owner: "xiaomi",
-	apk: "proprietary/product/app/PerformanceMode/PerformanceMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "PowerOffAlarm",
-	owner: "xiaomi",
-	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "xiaomi",
 	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -79,73 +57,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "atfwd",
-	owner: "xiaomi",
-	apk: "proprietary/product/app/atfwd/atfwd.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "datastatusnotification",
-	owner: "xiaomi",
-	apk: "proprietary/product/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "embms",
-	owner: "xiaomi",
-	apk: "proprietary/product/app/embms/embms.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "imssettings",
-	owner: "xiaomi",
-	apk: "proprietary/product/app/imssettings/imssettings.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "uceShimService",
-	owner: "xiaomi",
-	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "dpmserviceapp",
-	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
 	product_specific: true,
 }
 
@@ -171,18 +82,6 @@ android_app_import {
 	},
 	privileged: true,
 	product_specific: true,
-}
-
-dex_import {
-	name: "QPerformance",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/UxPerformance.jar"],
 }
 
 dex_import {
